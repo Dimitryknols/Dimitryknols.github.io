@@ -1,12 +1,13 @@
 body {
 font-family: Arial;
 margin: 0;
-background: #111;
-color: white;
+background: #f5f5f5;
+color: #333;
 }
 
 header {
-background: #000;
+background: #2c3e50;
+color: white;
 padding: 20px;
 text-align: center;
 }
@@ -18,18 +19,30 @@ text-decoration: none;
 }
 
 .hero {
-padding: 80px;
+background-image: url("https://images.unsplash.com/photo-1505691723518-36a5ac3b2d3a");
+background-size: cover;
+color: white;
+padding: 120px 20px;
 text-align: center;
-background: linear-gradient(45deg,#1e3c72,#2a5298);
+}
+
+button {
+padding: 12px 25px;
+font-size: 16px;
+background: #e67e22;
+border: none;
+color: white;
+cursor: pointer;
 }
 
 section {
-padding: 50px;
+padding: 60px 20px;
 text-align: center;
 }
 
 footer {
-background: black;
+background: #2c3e50;
+color: white;
 padding: 20px;
 text-align: center;
 }
