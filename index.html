@@ -3,51 +3,149 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BnB De Roermolen </title>
+<title>De Roermolen</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>BnB De Roermolen</h1>
+<div class="logo">De Roermolen</div>
 
 <nav>
-<a href="#home">Home</a>
-<a href="#kamers">Kamers</a>
-<a href="#prijzen">Prijzen</a>
+<a href="#verblijf">Verblijf</a>
+<a href="#omgeving">Omgeving</a>
+<a href="#over">Over</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
-<section id="home" class="hero">
-<h2>Welkom bij onze Airbnb</h2>
-<p>Geniet van rust, comfort en de mooie natuur.</p>
-<button onclick="scrollToContact()">Reserveer Nu</button>
+<section class="hero">
+
+<div class="hero-image">
+<img src="images/hero.jpg">
+</div>
+
+<div class="hero-text">
+<h1>Natuurpracht<br>en Rust</h1>
+<p>Ontsnap aan de drukte en geniet van natuur en comfort.</p>
+<button onclick="scrollToContact()">Boek nu</button>
+</div>
+
 </section>
 
-<section id="kamers">
-<h2>Onze Kamer</h2>
-<p>Ruime studio met privé badkamer, wifi en terras.</p>
+
+<section id="over" class="about">
+
+<h2>Over De Roermolen</h2>
+
+<div class="gallery">
+
+<img src="images/room.jpg">
+<img src="images/forest.jpg">
+<img src="images/house.jpg">
+
+</div>
+
 </section>
 
-<section id="prijzen">
-<h2>Prijzen</h2>
-<ul>
-<li>1 nacht: €95</li>
-<li>Weekend: €180</li>
-<li>Week: €600</li>
-</ul>
+
+<section class="options">
+
+<h2>Onze opties</h2>
+
+<div class="option-grid">
+
+<div class="card">
+<img src="images/house.jpg">
+<p>Rustige natuurverblijf met comfortabele kamers.</p>
+</div>
+
+<div class="card">
+<img src="images/room.jpg">
+<p>Privé kamer met uitzicht op de natuur.</p>
+</div>
+
+</div>
+
 </section>
 
-<section id="contact">
-<h2>Reserveren</h2>
-<p>Email: info@deroemolen.nl</p>
-<p>Telefoon: +31 6 12345678</p>
+
+<section class="reviews">
+
+<h2>Getuigenissen</h2>
+
+<div class="review-grid">
+
+<div>
+★★★★★
+<p>Prachtige plek en super rustig.</p>
+<b>Marieke</b>
+</div>
+
+<div>
+★★★★★
+<p>Perfect voor natuurwandelingen.</p>
+<b>Anouk</b>
+</div>
+
+<div>
+★★★★★
+<p>Heerlijk weekend gehad.</p>
+<b>Joris</b>
+</div>
+
+</div>
+
 </section>
+
+
+<section id="contact" class="contact">
+
+<div class="contact-text">
+<h2>Contact opnemen</h2>
+<p>Laat ons weten wanneer je wilt komen.</p>
+
+<form>
+<input type="text" placeholder="Naam">
+<input type="email" placeholder="Email">
+<textarea placeholder="Bericht"></textarea>
+<button type="submit">Verstuur</button>
+</form>
+
+</div>
+
+<div class="contact-image">
+<img src="images/forest.jpg">
+</div>
+
+</section>
+
 
 <footer>
-<p>© 2026 BnB De Roermolen </p>
+
+<div class="footer-grid">
+
+<div>
+<h3>De Roermolen</h3>
+<p>Ontdek de natuur en kom tot rust.</p>
+</div>
+
+<div>
+<h4>Contact</h4>
+<p>Limburg</p>
+<p>+31 6 00000000</p>
+</div>
+
+<div>
+<h4>Menu</h4>
+<p>Verblijf</p>
+<p>Omgeving</p>
+<p>Contact</p>
+</div>
+
+</div>
+
 </footer>
 
 <script src="script.js"></script>
