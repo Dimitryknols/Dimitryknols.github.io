@@ -1,48 +1,133 @@
-body {
+body{
 font-family: Arial;
-margin: 0;
-background: #f5f5f5;
-color: #333;
+margin:0;
+background:#d9ded4;
+color:#333;
 }
 
-header {
-background: #2c3e50;
-color: white;
-padding: 20px;
-text-align: center;
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+background:#4c5748;
+color:white;
 }
 
-nav a {
-color: white;
-margin: 10px;
-text-decoration: none;
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
 }
 
-.hero {
-background-image: url("https://images.unsplash.com/photo-1505691723518-36a5ac3b2d3a");
-background-size: cover;
-color: white;
-padding: 120px 20px;
-text-align: center;
+.hero{
+display:flex;
+align-items:center;
+padding:80px;
+background:#4c5748;
+color:white;
 }
 
-button {
-padding: 12px 25px;
-font-size: 16px;
-background: #e67e22;
-border: none;
-color: white;
-cursor: pointer;
+.hero-image img{
+width:350px;
+border-radius:50%;
 }
 
-section {
-padding: 60px 20px;
-text-align: center;
+.hero-text{
+margin-left:60px;
 }
 
-footer {
-background: #2c3e50;
-color: white;
-padding: 20px;
-text-align: center;
+.hero-text h1{
+font-size:50px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:white;
+border-radius:20px;
+cursor:pointer;
+}
+
+.about{
+padding:80px;
+text-align:center;
+}
+
+.gallery{
+display:flex;
+gap:20px;
+justify-content:center;
+margin-top:30px;
+}
+
+.gallery img{
+width:250px;
+height:320px;
+object-fit:cover;
+}
+
+.options{
+padding:80px;
+text-align:center;
+}
+
+.option-grid{
+display:flex;
+gap:40px;
+justify-content:center;
+}
+
+.card{
+width:250px;
+}
+
+.card img{
+width:100%;
+}
+
+.reviews{
+padding:80px;
+background:#eee;
+text-align:center;
+}
+
+.review-grid{
+display:flex;
+gap:40px;
+justify-content:center;
+}
+
+.contact{
+display:flex;
+padding:80px;
+gap:40px;
+}
+
+.contact-text{
+width:50%;
+}
+
+.contact form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.contact input, textarea{
+padding:10px;
+}
+
+.contact-image img{
+width:400px;
+}
+
+footer{
+background:#1f2b1f;
+color:white;
+padding:60px;
+}
+
+.footer-grid{
+display:flex;
+justify-content:space-between;
 }
