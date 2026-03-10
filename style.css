@@ -13,8 +13,10 @@ align-items:center;
 padding:20px 60px;
 background:white;
 position:fixed;
+top:0;
 width:100%;
 box-sizing:border-box;
+z-index:1000;
 
 }
 
@@ -23,6 +25,11 @@ margin-left:25px;
 text-decoration:none;
 color:#333;
 font-weight:500;
+}
+
+nav{
+display:flex;
+gap:30px;
 }
 
 .hero{
@@ -36,6 +43,8 @@ color:white;
 padding-top:160px;
 overflow:hidden;
 background:url("images/hero.jpg") center/cover no-repeat;
+background-size:cover;
+background-position:center;
 }
 
 .slider{
@@ -71,7 +80,7 @@ background:rgba(0,0,0,0.45);
 position:relative;
 z-index:2;
 max-width:700px;
-margin-top:-60px;
+margin-top:-40px;
 }
 
 .hero h1{
@@ -217,7 +226,7 @@ text-align:center;
 header h1{
 font-size:32px;
 font-weight:800;
-letter-spacing:1px;
+margin:0;
 }
 
 .cards{
