@@ -1,5 +1,1 @@
-function scrollToContact(){
-document.getElementById("contact").scrollIntoView({
-behavior:"smooth"
-})
-}
+console.log("De Roermolen website loaded");
