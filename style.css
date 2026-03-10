@@ -49,13 +49,14 @@ background:rgba(0,0,0,0.45);
 .hero-text{
 position:relative;
 z-index:2;
+margin-top:-120px;
 }
 
 }
 
 .hero h1{
 
-font-size:60px;
+font-size:72px;
 
 }
 
