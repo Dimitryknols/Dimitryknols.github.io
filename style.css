@@ -246,5 +246,19 @@ grid-template-columns:repeat(2,1fr);
 .hero h1{
 font-size:40px;
 }
-
+.availability{
+padding:80px 20px;
+text-align:center;
 }
+
+.availability-content{
+display:flex;
+justify-content:center;
+}
+
+.availability iframe{
+width:600px;
+height:400px;
+border:0;
+}
+
