@@ -25,15 +25,10 @@ color:#333;
 
 }
 
-.hero{
-
+  .hero{
+background:#4c5748;
 height:90vh;
-background:url("images/hero.jpg") center/cover no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
+}
 
 }
 
