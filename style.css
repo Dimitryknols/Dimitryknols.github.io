@@ -25,9 +25,30 @@ color:#333;
 
 }
 
-  .hero{
-background:#4c5748;
+.hero{
 height:90vh;
+background:url("hero.jpg") center/cover no-repeat;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.hero-text{
+position:relative;
+z-index:2;
 }
 
 }
