@@ -21,7 +21,7 @@
 
 <header>
 
-<div class="logo">De Roermolen</div>
+<a href="#" class="logo">De Roermolen</a>
 
 <nav>
 <a href="#verblijf">Verblijf</a>
@@ -56,7 +56,7 @@
 
 <div class="card">
 
-<img src="images/kamer1.jpg" alt="Kamer De Molen">
+<img src="images/kamer1.jpg" alt="Kamer De Molen" loading="lazy">
 
 <h3>Kamer De Molen</h3>
 
@@ -70,7 +70,7 @@ Ruime kamer met uitzicht op de tuin. Inclusief luxe bed en privé badkamer.
 
 <div class="card">
 
-<img src="images/kamer2.jpg" alt="Kamer Het Bos">
+<img src="images/kamer2.jpg" alt="Kamer Het Bos" loading="lazy">
 
 <h3>Kamer Het Bos</h3>
 
@@ -84,7 +84,7 @@ Gezellige kamer met natuurlijke inrichting en uitzicht op het bos.
 
 <div class="card">
 
-<img src="images/kamer3.jpg" alt="Kamer De Weide">
+<img src="images/kamer3.jpg" alt="Kamer De Weide" loading="lazy">
 
 <h3>Kamer De Weide</h3>
 
@@ -108,9 +108,9 @@ Lichte kamer met groot raam en uitzicht op de weide.
 <div class="gallery">
 
 <img src="images/hero.jpg" alt="Natuurverblijf De Roermolen">
-<img src="images/forest.jpg" alt="Bos in Limburg">
-<img src="images/room.jpg" alt="Luxe kamer De Roermolen">
-<img src="images/terrace.jpg" alt="Terras met uitzicht op natuur">
+<img src="images/forest.jpg" alt="Bos in Limburg" loading="lazy">
+<img src="images/room.jpg" alt="Luxe kamer De Roermolen" loading="lazy">
+<img src="images/terrace.jpg" alt="Terras met uitzicht op natuur" loading="lazy"
 
 </div>
 
@@ -159,13 +159,12 @@ Lichte kamer met groot raam en uitzicht op de weide.
 <h2>Faciliteiten</h2>
 
 <ul class="facilities">
-
-<li>Gratis parkeren</li>
-<li>Gratis wifi</li>
-<li>Privé terras</li>
-<li>Natuurgebied om te wandelen</li>
-<li>Fietsroutes in de omgeving</li>
-
+<li>🚗 Gratis parkeren</li>
+<li>📶 Gratis wifi</li>
+<li>🌿 Privé terras</li>
+<li>🚶 Wandelgebied</li>
+<li>🚴 Fietsroutes</li>
+<li>🌳 Natuurgebied</li>
 </ul>
 
 </section>
@@ -177,7 +176,10 @@ Lichte kamer met groot raam en uitzicht op de weide.
 
 <div class="booking-box">
 
+<label>Check-in</label>
 <input type="date">
+
+<label>Check-out</label>
 <input type="date">
 
 <button>Controleer beschikbaarheid</button>
@@ -201,11 +203,11 @@ loading="lazy">
 
 <h2>Stuur een aanvraag</h2>
 
-<form>
+<input type="text" name="name" placeholder="Naam" required>
 
-<input type="text" placeholder="Naam">
-<input type="email" placeholder="Email">
-<textarea placeholder="Bericht"></textarea>
+<input type="email" name="email" placeholder="Email" required>
+
+<textarea name="message" placeholder="Bericht" required></textarea>
 
 <button>Verstuur aanvraag</button>
 
@@ -224,6 +226,7 @@ loading="lazy">
 
 </body>
 </html>
+
 
 
 
