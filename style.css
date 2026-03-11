@@ -213,13 +213,22 @@ justify-content:center;
 }
 
 form{
-
-max-width:500px;
-margin:auto;
+max-width:600px;
+margin:40px auto;
 display:flex;
 flex-direction:column;
 gap:15px;
+align-items:center;
+}
 
+form input,
+form textarea{
+width:100%;
+max-width:500px;
+}
+
+form button{
+margin-top:10px;
 }
 
 input, textarea{
