@@ -14,15 +14,12 @@ header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 40px;
+padding:20px 8%;
 background:white;
 position:fixed;
 top:0;
 left:0;
 width:100%;
-max-width:1400px;
-margin:auto;
-right:0;
 box-sizing:border-box;
 z-index:1000;
 box-shadow:0 2px 10px rgba(0,0,0,0.05);
@@ -87,9 +84,11 @@ align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-padding-top:0;
 overflow:hidden;
 background:url("images/hero.jpg") center/cover no-repeat;
+width:100%;
+max-width:none;
+margin-top:80px;
 }
 
 
