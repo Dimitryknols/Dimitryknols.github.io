@@ -52,7 +52,7 @@ section h2{
 text-align:center;
 margin-bottom:40px;
 font-size:32px;
-position:relative;
+relative;
 }
 
 section h2::after{
@@ -72,7 +72,7 @@ margin:auto;
 }
 
 nav a{
-position:relative;
+relative;
 text-decoration:none;
 color:#333;
 font-weight:500;
@@ -81,7 +81,7 @@ font-size:16px;
 
 nav a::after{
 content:"";
-position:absolute;
+absolute;
 left:0;
 bottom:-4px;
 width:0;
@@ -102,7 +102,7 @@ gap:30px;
 
 .hero::before{
 content:"";
-position:absolute;
+absolute;
 top:0;
 left:0;
 width:100%;
@@ -111,7 +111,7 @@ background:rgba(0,0,0,0.45);
 }
 
 .hero-text{
-position:relative;
+relative;
 z-index:2;
 max-width:600px;
 margin:auto;
